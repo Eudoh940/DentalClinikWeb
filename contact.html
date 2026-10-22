@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Brightwell Dental to plan a visit, ask a question, or find our neighborhood dental studio.">
+    <title>Contact | Brightwell Dental</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/clinic.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html" aria-label="Brightwell Dental home"><span class="brand-mark" aria-hidden="true">b</span><span>brightwell<span class="brand-light"> dental</span></span></a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a><a href="about.html">About</a><a href="blog.html">Blog</a><a class="active" href="contact.html" aria-current="page">Contact</a>
+            </nav>
+            <a class="button button-small nav-cta" href="#contact-form">Book a visit <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-intro container">
+            <div><span class="eyebrow"><span class="eyebrow-dot"></span> WE’RE JUST A HELLO AWAY</span><h1>Let’s get you <em>smiling.</em></h1><p>Questions, first visit, just saying hi—we’re happy to help. Get in touch and a real person from our team will get back to you.</p></div>
+            <span class="contact-sparkle" aria-hidden="true">✳</span>
+        </section>
+
+        <section class="container contact-layout">
+            <div class="contact-details">
+                <article class="contact-detail"><span class="detail-icon" aria-hidden="true">⌖</span><div><h2>Come on in</h2><p>24 Garden Street, Suite 2<br>Portland, OR 97205</p><a href="https://maps.google.com/?q=24+Garden+Street+Portland+OR+97205" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">↗</span></a></div></article>
+                <article class="contact-detail"><span class="detail-icon" aria-hidden="true">◷</span><div><h2>When we’re here</h2><p>Monday – Friday<br>8:00 am – 5:00 pm</p><small>Closed weekends &amp; public holidays</small></div></article>
+                <article class="contact-detail"><span class="detail-icon" aria-hidden="true">✆</span><div><h2>Reach out</h2><p><a href="tel:+15550142020">(555) 014-2020</a><br><a href="mailto:hello@brightwelldental.example">hello@brightwelldental.example</a></p></div></article>
+                <div class="contact-note"><span aria-hidden="true">✳</span><p>Need urgent dental care? Please call us so our team can help you as soon as possible.</p></div>
+            </div>
+            <form class="contact-form" id="contact-form" action="mailto:hello@brightwelldental.example" method="post" enctype="text/plain">
+                <span class="eyebrow">SEND US A NOTE</span>
+                <h2>How can we help?</h2>
+                <p class="form-intro">Fill out the form and we’ll be in touch soon.</p>
+                <div class="form-row">
+                    <label for="name">Your name<input id="name" name="name" type="text" placeholder="Alex Morgan" autocomplete="name" required></label>
+                    <label for="email">Email address<input id="email" name="email" type="email" placeholder="alex@example.com" autocomplete="email" required></label>
+                </div>
+                <label for="reason">What can we help with?
+                    <select id="reason" name="reason" required>
+                        <option value="" selected disabled>Choose a topic</option>
+                        <option>I'd like to book a visit</option>
+                        <option>I'm a new patient</option>
+                        <option>I have a question</option>
+                        <option>Something else</option>
+                    </select>
+                </label>
+                <label for="message">A little more detail<textarea id="message" name="message" rows="4" placeholder="Tell us what’s on your mind…"></textarea></label>
+                <button class="button" type="submit">Send your message <span aria-hidden="true">↗</span></button>
+                <p class="form-disclaimer">This form opens your email app to send your note. For urgent concerns, please call us.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer contact-footer">
+        <div class="container footer-main">
+            <div><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">b</span><span>brightwell<span class="brand-light"> dental</span></span></a><p>Good care. Good people.<br>Good reason to smile.</p></div>
+            <div class="footer-links"><span>EXPLORE</span><a href="about.html">Our story</a><a href="blog.html">The smile journal</a><a href="contact.html">Get in touch</a></div>
+            <div class="footer-links"><span>COME SAY HI</span><a href="contact.html">24 Garden Street, Suite 2</a><a href="tel:+15550142020">(555) 014-2020</a><a href="mailto:hello@brightwelldental.example">hello@brightwelldental.example</a></div>
+        </div>
+        <div class="container footer-bottom"><span>© 2026 Brightwell Dental. Made with care.</span><span>MON–FRI · 8:00 AM–5:00 PM</span></div>
+    </footer>
+</body>
+</html>
